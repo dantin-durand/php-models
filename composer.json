@@ -1,0 +1,20 @@
+{
+    "name": "Dantin/models",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dantin Durand",
+            "email": "durand.dantin.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "fzaninotto/faker": "^1.5",
+        "nesbot/carbon": "^2.43"
+    },
+    "autoload": {
+        "psr-4": {
+          "App\\": "app/"
+        }
+    }
+}
